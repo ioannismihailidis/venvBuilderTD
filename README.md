@@ -3,7 +3,7 @@
 ## Requirement
 - git
 - Touchdesigner 2023.xxxx
-- Cuda GPU (with some tiny modifcation the example works also on non cuda devices.
+- Cuda GPU (with some tiny modifcation the example works also on non cuda devices)
 - Windows
   
 ## Install 
