@@ -11,6 +11,15 @@
 ## Install 
 
 The repository contains lfs marked files. Make sure to clone the repository and fetch all lfs files!
+
+```bash
+git clone https://github.com/ioannismihailidis/venvBuilderTD.git
+cd venvBuilderTD
+git lfs fetch --all
+```
+
+or (depricated)
+
 ```bash
 git lfs clone https://github.com/ioannismihailidis/venvBuilderTD.git
 ```
