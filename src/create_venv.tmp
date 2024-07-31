@@ -1,0 +1,9 @@
+echo OFF
+echo Creating python folder...
+mkdir {python_folderpath}
+echo Extracting python binaries and libs...
+tar -xf {python_zip}  -C {python_folderpath}
+echo Creating virtual environment...
+"{tox_base_folder}\bin\python-3.11.1.amd64\python.exe" -m venv "{venv_path}"
+echo Done
+pause /b 1

@@ -1,0 +1,19 @@
+@echo off
+echo Current directory: %CD%
+
+echo Attempting to activate virtual environment...
+call "{venv_path}\\Scripts\\activate.bat"
+
+rem Check if the virtual environment was activated successfully
+if "%VIRTUAL_ENV%" == "" (
+    echo Failed to activate virtual environment. Please check the path and ensure the venv exists.
+    echo Path to venv: "{base_folder}\\venv"
+    echo VIRTUAL_ENV: "%VIRTUAL_ENV%"
+    pause /b 1
+) else (
+    echo Virtual environment activated.
+    echo Current directory: %CD%
+    echo Current enviroment: %VIRTUAL_ENV%
+    pip install -r "{base_folder}/scripts/requirements.txt"
+    pause /b 1
+)
