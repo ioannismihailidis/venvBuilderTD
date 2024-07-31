@@ -5,7 +5,7 @@
 ## Requirement
 - git
 - Touchdesigner 2023.xxxx
-- Cuda GPU (with some tiny modifcation the example works also on non cuda devices)
+- Sample needs a Nvidia GPU with Cuda support (with some tiny modifcation the example works also on non cuda devices)
 - Windows
   
 ## Install 
@@ -23,3 +23,7 @@ or (depricated)
 ```bash
 git lfs clone https://github.com/ioannismihailidis/venvBuilderTD.git
 ```
+
+
+## How to use
+Check the sample under "samples\yolov8_detection\td_yolov8_detection.toe"
