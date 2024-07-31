@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/28076da8-5af4-4a5b-9253-5c24d5208107)
 
 
-## Requirement
+## Requirements
 - git to fetch this respository
 - Touchdesigner 2023.xxxx
 - Sample needs a Nvidia GPU with Cuda support (with some tiny modifcation the example works also on non cuda devices)
