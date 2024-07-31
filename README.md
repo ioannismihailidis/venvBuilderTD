@@ -3,7 +3,7 @@
 
 
 ## Requirement
-- git
+- git to fetch this respository
 - Touchdesigner 2023.xxxx
 - Sample needs a Nvidia GPU with Cuda support (with some tiny modifcation the example works also on non cuda devices)
 - Windows
