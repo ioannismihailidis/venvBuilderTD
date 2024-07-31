@@ -18,7 +18,7 @@ cd venvBuilderTD
 git lfs fetch --all
 ```
 
-or (depricated)
+or (deprecated)
 
 ```bash
 git lfs clone https://github.com/ioannismihailidis/venvBuilderTD.git
