@@ -1,3 +1,5 @@
 venv-yolov8/**
 scripts/**
 *.pt
+*.engine
+*.onnx
