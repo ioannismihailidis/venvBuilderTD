@@ -1,0 +1,7 @@
+venv-yolov8-cudatop/**
+scripts/**
+Backup/**
+*.*.toe
+*.onnx
+*.engine
+*.pt
