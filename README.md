@@ -28,7 +28,7 @@ git lfs clone https://github.com/ioannismihailidis/venvBuilderTD.git
 ## Sample _yolov8_detection_ 
 
 Features:
-- running yolov8 in realtime from an Innput TOP
+- running yolov8 in realtime from an Input TOP
 - usage of pip package supervision for additional annoation and tracking
 - tensorRT model export feature
 
