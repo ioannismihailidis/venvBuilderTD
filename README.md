@@ -25,5 +25,21 @@ git lfs clone https://github.com/ioannismihailidis/venvBuilderTD.git
 ```
 
 
-## How to use
-Check the sample under "samples\yolov8_detection\td_yolov8_detection.toe"
+## Sample _yolov8_detection_ 
+
+Features:
+- running yolov8 in realtime from an Input TOP
+- usage of pip package supervision for additional annoation and tracking
+- tensorRT model export feature
+
+
+## Sample _yolov8_detection_cudatop_
+
+Features:
+- much faster TOP to tensor processing by using effectice cuda to tensor workflow provided by https://github.com/IntentDev/TopArray/
+- same features as above
+  
+
+## Sample _sam2_ (Segment Anything 2)
+
+Work in progress.
